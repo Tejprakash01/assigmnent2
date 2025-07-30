@@ -1,6 +1,7 @@
 #sum of 1 to 50
+n=int(input("enter number:"))
 b=0
-for i in range(51):
+for i in range(n):
     b=i+b
-
-print('sum from 1 to 50 is:',b)
+    
+print("sum of first" ,n, "number is:",b)
